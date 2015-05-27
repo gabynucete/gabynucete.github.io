@@ -41,7 +41,11 @@ margin: 12px auto;
 }
 
 button{
-background-color: rgba(23,175,156,0.6);
+  background: -webkit-linear-gradient(180deg, #283048 20%, #859398 80%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(180deg, #283048 20%, #859398 80%); /* FF3.6+ */
+  background:     -ms-linear-gradient(180deg, #283048 20%, #859398 80%); /* IE10 */
+  background:      -o-linear-gradient(180deg, #283048 20%, #859398 80%); /* Opera 11.10+ */
+  background:         linear-gradient(180deg, #283048 20%, #859398 80%); /* W3C */;
 color: white;
 font-family: 'Playfair Display', serif;
 padding: 15px;
